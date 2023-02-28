@@ -12,7 +12,7 @@ const Services = () => {
     >
       <div className="mx-auto text-white text-center">
         <p className="text-[#ccc]">What I am Expert In</p>
-        <h1 className="md:text-[60px] sm:text-[50px] text-[40px]">
+        <h1 className="md:text-[60px] sm:text-[50px] text-[40px] pb-5">
           <span className="text-primary">My</span> Services
         </h1>
       </div>

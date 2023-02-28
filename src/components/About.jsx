@@ -31,9 +31,15 @@ const About = () => {
             to showcase your portfolio, I have the skills and expertise to
             deliver the results you need.
           </p>
-          <button className="bg-primary w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
-            Download CV
-          </button>
+          <a
+            href="https://drive.google.com/file/d/1og2enVSZBzvIdltWZikILzPpYqI8ysPG/view?usp=share_link"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <button className="bg-primary w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
+              Download CV
+            </button>
+          </a>
         </div>
       </div>
     </div>

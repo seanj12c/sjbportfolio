@@ -33,7 +33,7 @@ function Terms(props) {
           be bound by the updated terms and conditions.
         </p>
         <button
-          className="absolute bottom-0 left-0 right-0"
+          className="absolute bottom-0 left-0 right-0 text-[#ff4989]"
           onClick={() => props.setTrigger(false)}
         >
           I Understand
