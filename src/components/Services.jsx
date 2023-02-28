@@ -6,10 +6,13 @@ import {
 } from "react-icons/ai";
 const Services = () => {
   return (
-    <div id="services" className="w-full lg:h-screen py-[7rem] px-4">
+    <div
+      id="services"
+      className="w-full grid items-center lg:h-screen py-[7rem] px-4"
+    >
       <div className="mx-auto text-white text-center">
         <p className="text-[#ccc]">What I am Expert In</p>
-        <h1 className="md:text-[60px] sm:text-[50px] text-[40px] pb-8">
+        <h1 className="md:text-[60px] sm:text-[50px] text-[40px]">
           <span className="text-primary">My</span> Services
         </h1>
       </div>
@@ -19,14 +22,12 @@ const Services = () => {
           <AiOutlineCode size={50} className="w-20 mx-auto mt-[-3rem]" />
           <h2 className="text-2xl font-bold text-center py-8">Web Design</h2>
           <p className="text-center text-base">
-            Web design encompasses many different skills and disciplines in the
-            production and maintenance of websites. The different areas of web
-            design include web graphic design; user interface design; authoring,
-            including standardised code and proprietary software;
+            As a web designer with expertise in Tailwind CSS, I specialize in
+            creating modern and visually appealing websites that are optimized
+            for all devices. I use my knowledge of design principles and color
+            theory to create custom designs that align with your brand and
+            business objectives.
           </p>
-          <button className="bg-primary w-[200px] rounded-md font-medium my-6 mx-auto py-3">
-            Read More
-          </button>
         </div>
 
         <div className="w-full px-2 bg-[#202020] rounded-xl shadow-sm shadow-primary flex flex-col p-4 my-4 hover:scale-105 duration-300">
@@ -35,14 +36,12 @@ const Services = () => {
             Web Development
           </h2>
           <p className="text-center text-base">
-            Web development is the work involved in developing a website for the
-            Internet or an intranet. Web development can range from developing a
-            simple single static page of plain text to complex web applications,
-            electronic businesses, and social network services.
+            If you have a Figma design that you want to turn into a fully
+            responsive and functional website, look no further. As a web
+            developer with expertise in React JS and Tailwind CSS, I can
+            transform your Figma design into a beautiful and intuitive website
+            that works seamlessly on all devices.
           </p>
-          <button className="bg-primary w-[200px] rounded-md font-medium my-6 mx-auto py-3">
-            Read More
-          </button>
         </div>
 
         <div className="w-full px-2 bg-[#202020] rounded-xl shadow-sm shadow-primary flex flex-col p-4 my-4 hover:scale-105 duration-300">
@@ -51,15 +50,11 @@ const Services = () => {
             Creative Design
           </h2>
           <p className="text-center text-base">
-            Creative design is a process that uses digital and physical
-            image-making tools to create renders and representations used for
-            marketing purposes. Creative design as a field relies heavily on the
-            work of visual designers but is not entirely limited to it.
-            Companies require creative
+            As a web designer and developer, I specialize in creating custom
+            designs that are both visually stunning and functional. With a
+            passion for creativity and innovation, I am skilled in developing
+            unique solutions that align with your brand and business objectives.
           </p>
-          <button className="bg-primary w-[200px] rounded-md font-medium my-6 mx-auto py-3">
-            Read More
-          </button>
         </div>
       </div>
     </div>

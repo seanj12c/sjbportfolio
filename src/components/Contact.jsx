@@ -8,20 +8,27 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="md:w-full mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-white"
+      className="md:w-full h-[90vh] items-center mx-auto py-16 justify-center lg:text-start text-center flex text-white"
     >
-      <div className="">
-        <h1 className="w-full text-3xl font-bold text-primary">
+      <div className="max-w-3xl">
+        <h1 className="w-full text-3xl lg:text-5xl pb-3 font-bold text-primary text-center">
           Contact <span className="text-white">Me!</span>
         </h1>
         <h1 className="w-full text-lg text-white">
           If you want to create a project with me.
         </h1>
         <p className="py-4">
-          I describe myself as a passionate developer who loves coding, open
-          source, and the web platform. Aside from my job, I like to create and
-          contribute to open source projects. That helps me to learn a ton of
-          new stuff, grow as a developer and support other open source projects.
+          Hi, my name is Sean and I'm a web developer with experience in ReactJS
+          and Tailwind CSS. I also have a strong foundation in HTML, CSS, and
+          JavaScript. I specialize in creating modern, responsive web
+          applications that are easy to use and visually appealing. I have a
+          passion for staying up-to-date with the latest web development trends
+          and technologies. My attention to detail and dedication to quality
+          ensures that my projects are always delivered on time and to the
+          highest standard. If you're interested in working together or have any
+          web development needs, please feel free to contact me. I'm excited to
+          hear about your project and discuss how we can work together to bring
+          your vision to life.
         </p>
         <div className="grid">
           <a
@@ -38,7 +45,7 @@ const Contact = () => {
           </a>
         </div>
 
-        <div className="flex justify-between w-[35%] my-6">
+        <div className="flex justify-center lg:justify-start gap-4 my-6">
           <a
             className="hover:text-primary duration-500"
             href="https://www.facebook.com/seanj12c"
@@ -64,11 +71,6 @@ const Contact = () => {
             <AiFillLinkedin size={30} />
           </a>
         </div>
-      </div>
-      <div className="lg:col-span-3 flex justify-between">
-        <ul>
-          <li></li>
-        </ul>
       </div>
     </div>
   );
