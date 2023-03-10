@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <div
       id="portfolio"
-      className="w-full md:h-screen md:grid items-center bg-[#202020] px-4 text-white md:py-40 pt-24 pb-7"
+      className="w-full md:h-screen md:grid items-center bg-secondary px-4 text-white md:py-40 pt-24 pb-7"
     >
       <div className="text-center">
         <p>Portfolio</p>
@@ -16,7 +16,7 @@ const Portfolio = () => {
       </div>
 
       <div className="md:max-w-[1240px] max-w-[450px] mx-auto grid md:grid-cols-3 text-white gap-5">
-        <div className="bg-[#202020] rounded-xl  flex flex-col my-4">
+        <div className="bg-secondary rounded-xl  flex flex-col my-4">
           <a
             id="link"
             href="https://edoagendabysean.netlify.app"
@@ -32,7 +32,7 @@ const Portfolio = () => {
           </a>
         </div>
 
-        <div className="bg-[#202020] rounded-xl  flex flex-col my-4">
+        <div className="bg-secondary rounded-xl  flex flex-col my-4">
           <a
             id="link"
             href="https://mybankbysean.netlify.app"
@@ -48,7 +48,7 @@ const Portfolio = () => {
           </a>
         </div>
 
-        <div className="bg-[#202020] rounded-xl  flex flex-col my-4">
+        <div className="bg-secondary rounded-xl  flex flex-col my-4">
           <a
             id="link"
             href="https://kitscratch.netlify.app"

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full md:h-screen h-full md:grid items-center bg-[#202020] py-12 px-4 text-white"
+      className="w-full md:h-screen h-full md:grid items-center bg-secondary py-12 px-4 text-white"
     >
       <div className="max-w-[1240px] gap-4 mx-auto grid md:grid-cols-2">
         <img
