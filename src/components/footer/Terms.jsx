@@ -4,10 +4,10 @@ function Terms(props) {
   return props.trigger ? (
     <div className="fixed top-0 left-0 w-full h-screen bg-[#202020] bg-opacity-80 flex justify-center items-center text-left text-white">
       <div className="relative p-5 w-full max-w-2xl bg-[#2a2a2a] border border-black rounded-xl">
-        <h1 className="text-base font-bold text-center text-[#ff4989]">
+        <h1 className="text-base font-bold text-center text-primary">
           Terms & Agreement
         </h1>
-        <p className="text-xs">
+        <p className="text-xs pb-2">
           Welcome to Sean Jimwell Buclatin's portfolio website. By using this
           website, you agree to the following terms and conditions: <br />
           1. Intellectual Property: All content on this website, including but
@@ -33,7 +33,7 @@ function Terms(props) {
           be bound by the updated terms and conditions.
         </p>
         <button
-          className="absolute bottom-0 left-0 right-0 text-[#ff4989]"
+          className="absolute bottom-0 left-0 right-0 text-primary"
           onClick={() => props.setTrigger(false)}
         >
           I Understand
