@@ -51,14 +51,14 @@ const Navbar = () => {
       </ul>
       <div
         onClick={handleNav}
-        className="block p-2 bg-primary rounded-full md:hidden"
+        className="block p-2 text-white bg-primary rounded-full md:hidden"
       >
         {nav ? <AiOutlineClose size={18} /> : <AiOutlineMenu size={18} />}
       </div>
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-black ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-white ease-in-out duration-500"
             : "fixed left-[-100%]"
         }
       >

@@ -37,7 +37,7 @@ const About = () => {
             rel="noreferrer"
             className="flex justify-center md:justify-start items-center"
           >
-            <button className="bg-primary w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
+            <button className="bg-primary text-white w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
               Download CV
             </button>
           </a>

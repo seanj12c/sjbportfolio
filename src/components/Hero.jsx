@@ -32,7 +32,7 @@ const Hero = () => {
           user experiences.
         </p>
         <a href="#contact">
-          <button className="bg-primary w-40 lg:w-52 rounded-md font-medium my-6 mx-auto py-3">
+          <button className="bg-primary text-white w-40 lg:w-52 rounded-md font-medium my-6 mx-auto py-3">
             Contact Me
           </button>
         </a>
