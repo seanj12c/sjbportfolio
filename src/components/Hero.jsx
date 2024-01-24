@@ -3,10 +3,10 @@ import Typed from "react-typed";
 
 const Hero = () => {
   return (
-    <div id="home" className="text-white">
+    <div id="home" className="text-black">
       <div className="max-w-[1000px] w-full h-screen text-center mx-auto flex flex-col justify-center pt-[60px]">
         <p className="text-primary font-bold p-2">
-          Hello <span className="text-white">I am</span>
+          Hello <span className="text-black">I am</span>
         </p>
         <h1
           id="buclatin"
@@ -26,7 +26,7 @@ const Hero = () => {
             loop
           />
         </div>
-        <p className="max-w-xl mx-auto md:text-base lg:text-xl text-sm font-bold text-[#ccc]">
+        <p className="max-w-xl mx-auto md:text-base lg:text-xl text-sm font-bold text-black">
           I am a front end web developer who writes clean, elegant and efficient
           code. I like to craft solid and scalable frontend products with great
           user experiences.

@@ -8,13 +8,13 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="md:w-full h-[90vh] items-center mx-auto py-16 justify-center lg:text-start text-center flex text-white"
+      className="md:w-full h-[90vh] items-center mx-auto py-16 justify-center lg:text-start text-center flex text-black"
     >
       <div className="max-w-3xl">
         <h1 className="w-full text-3xl lg:text-5xl pb-3 font-bold text-primary text-center">
-          Contact <span className="text-white">Me!</span>
+          Contact <span className="text-black">Me!</span>
         </h1>
-        <h1 className="w-full text-lg text-white">
+        <h1 className="w-full text-lg text-black">
           If you want to create a project with me.
         </h1>
         <p className="py-4">

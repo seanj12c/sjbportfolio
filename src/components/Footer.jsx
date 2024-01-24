@@ -6,7 +6,7 @@ const Footer = () => {
   const [PrivacyPopup, setPrivacyPopup] = useState(false);
 
   return (
-    <div className="justify-between w-full h-[10vh] items-center p-4 text-center md:flex text-white bg-secondary">
+    <div className="justify-between w-full h-[10vh] items-center p-4 text-center md:flex text-black bg-secondary">
       <div>
         <p className="text-xs lg:text-sm">
           Copyright © 2023 Sean Jimwell Buclatin. All rights reserved.

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full md:h-screen h-full md:grid items-center bg-secondary py-12 px-4 text-white"
+      className="w-full md:h-screen h-full md:grid items-center bg-secondary py-12 px-4 text-black"
     >
       <div className="max-w-[1240px] gap-4 mx-auto grid md:grid-cols-2">
         <img
@@ -14,7 +14,7 @@ const About = () => {
         />
         <div className="flex flex-col justify-center">
           <p className="text-primary font-bold pt-5">
-            About <span className="text-white">Me</span>
+            About <span className="text-black">Me</span>
           </p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             Web Designer<span className="text-primary">/</span>Developer
@@ -35,6 +35,7 @@ const About = () => {
             href="https://drive.google.com/file/d/1og2enVSZBzvIdltWZikILzPpYqI8ysPG/view?usp=share_link"
             target={"_blank"}
             rel="noreferrer"
+            className="flex justify-center md:justify-start items-center"
           >
             <button className="bg-primary w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
               Download CV

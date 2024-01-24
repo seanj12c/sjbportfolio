@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <div
       id="portfolio"
-      className="w-full md:h-screen md:grid items-center bg-secondary px-4 text-white md:py-40 pt-24 pb-7"
+      className="w-full md:h-screen md:grid items-center bg-secondary px-4 text-black md:py-40 pt-24 pb-7"
     >
       <div className="text-center">
         <p>Portfolio</p>
@@ -15,7 +15,7 @@ const Portfolio = () => {
         </h1>
       </div>
 
-      <div className="md:max-w-[1240px] max-w-[450px] mx-auto grid md:grid-cols-3 text-white gap-5">
+      <div className="md:max-w-[1240px] max-w-[450px] mx-auto grid md:grid-cols-3 text-black gap-5">
         <div className="bg-secondary rounded-xl  flex flex-col my-4">
           <a
             id="link"

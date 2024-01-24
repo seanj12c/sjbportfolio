@@ -23,13 +23,13 @@ const Navbar = () => {
     <div
       className={`${
         fix
-          ? "bg-[#2a2a2a] bg-opacity-95 transition-all ease-in-out duration-500"
+          ? "bg-white shadow-md bg-opacity-95 transition-all ease-in-out duration-500"
           : ""
-      } flex md:justify-around justify-between items-center h-24 mx-auto px-4 text-white fixed top-0 w-full md:w-full z-50`}
+      } flex md:justify-around justify-between items-center h-24 mx-auto px-4 text-black fixed top-0 w-full md:w-full z-50`}
     >
       <a href="#home">
         <h1 className="w-full text-3xl font-bold text-primary">
-          S<span className="text-white">JB.</span>
+          S<span className="text-black">JB.</span>
         </h1>
       </a>
       <ul className="hidden md:flex">
@@ -58,12 +58,12 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-black ease-in-out duration-500"
             : "fixed left-[-100%]"
         }
       >
         <h1 className="w-full text-3xl font-bold text-primary m-4">
-          S<span className="text-white">JB.</span>
+          S<span className="text-black">JB.</span>
         </h1>
 
         <ul className="uppercase p-4">

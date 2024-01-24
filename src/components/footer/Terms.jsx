@@ -2,8 +2,8 @@ import React from "react";
 
 function Terms(props) {
   return props.trigger ? (
-    <div className="fixed top-0 left-0 w-full h-screen bg-[#202020] bg-opacity-80 flex justify-center items-center text-left text-white">
-      <div className="relative p-5 w-full max-w-2xl bg-[#2a2a2a] border border-black rounded-xl">
+    <div className="fixed top-0 left-0 w-full h-screen bg-white bg-opacity-80 flex justify-center items-center text-left text-black">
+      <div className="relative p-5 w-full max-w-2xl bg-white border border-black rounded-xl">
         <h1 className="text-base font-bold text-center text-primary">
           Terms & Agreement
         </h1>
