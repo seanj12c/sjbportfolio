@@ -19,7 +19,7 @@ const About = () => {
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             Web Designer<span className="text-primary">/</span>Developer
           </h1>
-          <p>
+          <p className="text-justify">
             As a student, I have always been fascinated by the world of web
             design and development. Over the past year, I have honed my skills
             in creating beautiful and responsive landing pages and single page

@@ -17,7 +17,7 @@ const Contact = () => {
         <h1 className="w-full text-lg text-black">
           If you want to create a project with me.
         </h1>
-        <p className="py-4">
+        <p className="py-4 px-5 md:px-0 text-justify">
           Hi, my name is Sean and I'm a web developer with experience in ReactJS
           and Tailwind CSS. I also have a strong foundation in HTML, CSS, and
           JavaScript. I specialize in creating modern, responsive web

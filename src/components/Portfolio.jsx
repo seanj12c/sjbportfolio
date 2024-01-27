@@ -2,11 +2,14 @@ import React from "react";
 import Edoagenda from "../assets/edoagenda.gif";
 import Mybank from "../assets/mybank.gif";
 import Kitscratch from "../assets/kitscratch.gif";
+import Cnc from "../assets/cnc.gif";
+import Devstacks from "../assets/devstacks.gif";
+import Mobilelegends from "../assets/mobilelegends.gif";
 const Portfolio = () => {
   return (
     <div
       id="portfolio"
-      className="w-full md:h-screen md:grid items-center bg-secondary px-4 text-black md:py-40 pt-24 pb-7"
+      className="w-full md:h-screen  md:grid items-center bg-secondary px-4 text-black md:py-40 pt-24 pb-7"
     >
       <div className="text-center">
         <p>Portfolio</p>
@@ -61,6 +64,54 @@ const Portfolio = () => {
               alt="KitScratch"
             />
             <h1 className="text-center">KitScratch</h1>
+          </a>
+        </div>
+
+        <div className="bg-secondary rounded-xl  flex flex-col my-4">
+          <a
+            id="link"
+            href="https://mobilelegendsunofficial.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="pointer-events-none select-none object-cover rounded-2xl h-[220px] w-[500px]"
+              src={Mobilelegends}
+              alt="KitScratch"
+            />
+            <h1 className="text-center">Mobile Legends Unofficial Website</h1>
+          </a>
+        </div>
+
+        <div className="bg-secondary rounded-xl  flex flex-col my-4">
+          <a
+            id="link"
+            href="https://dev-stacks.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="pointer-events-none select-none object-cover rounded-2xl h-[220px] w-[500px]"
+              src={Devstacks}
+              alt="Devstacks"
+            />
+            <h1 className="text-center">Devstacks</h1>
+          </a>
+        </div>
+
+        <div className="bg-secondary rounded-xl  flex flex-col my-4">
+          <a
+            id="link"
+            href="https://caffeineandchapters.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="pointer-events-none select-none object-cover rounded-2xl h-[220px] w-[500px]"
+              src={Cnc}
+              alt="Caffeine and Chapters"
+            />
+            <h1 className="text-center">Caffeine and Chapters</h1>
           </a>
         </div>
       </div>
