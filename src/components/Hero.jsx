@@ -4,8 +4,8 @@ import Typed from "react-typed";
 const Hero = () => {
   return (
     <div id="home" className="text-black">
-      <div className="max-w-[1000px] w-full h-screen text-center mx-auto flex flex-col justify-center pt-[60px]">
-        <p className="text-primary font-bold p-2">
+      <div className="max-w-[1000px] w-full h-screen text-center mx-auto flex flex-col justify-center">
+        <p className="text-primary font-bold pb-2">
           Hello <span className="text-black">I am</span>
         </p>
         <h1
@@ -32,9 +32,7 @@ const Hero = () => {
           user experiences.
         </p>
         <a href="#contact">
-          <button className="bg-primary text-white w-40 lg:w-52 rounded-md font-medium my-6 mx-auto py-3">
-            Contact Me
-          </button>
+          <button className="btn btn-primary">Contact Me</button>
         </a>
       </div>
     </div>
