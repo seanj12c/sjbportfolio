@@ -10,15 +10,15 @@ const Services = () => {
       id="services"
       className="w-full grid items-center lg:h-screen py-[7rem] px-4"
     >
-      <div className="mx-auto text-black text-center">
-        <p className="text-black">What I am Expert In</p>
+      <div className="mx-auto  text-center">
+        <p className="">What I am Expert In</p>
         <h1 className="md:text-[60px] sm:text-[50px] text-[40px] pb-5">
           <span className="text-primary">My</span> Services
         </h1>
       </div>
 
-      <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-8 text-black ">
-        <div className="w-full px-2 bg-primary rounded-xl shadow-sm shadow-primary flex flex-col p-4 my-4 hover:scale-105 duration-300">
+      <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-8  ">
+        <div className="w-full px-2 bg-accent rounded-xl shadow-sm shadow-primary flex flex-col p-4 my-4 hover:scale-105 duration-300">
           <AiOutlineCode size={50} className="w-20 mx-auto mt-[-3rem]" />
           <h2 className="text-2xl font-bold text-center py-8">Web Design</h2>
           <p className="text-justify px-2 text-base">
@@ -30,7 +30,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="w-full px-2 bg-primary rounded-xl shadow-sm shadow-primary flex flex-col p-4 my-4 hover:scale-105 duration-300">
+        <div className="w-full px-2 bg-accent rounded-xl shadow-sm shadow-primary flex flex-col p-4 my-4 hover:scale-105 duration-300">
           <AiOutlineCodeSandbox size={50} className="w-20 mx-auto mt-[-3rem]" />
           <h2 className="text-2xl font-bold text-center py-8">
             Web Development
@@ -44,7 +44,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="w-full px-2 bg-primary rounded-xl shadow-sm shadow-primary flex flex-col p-4 my-4 hover:scale-105 duration-300">
+        <div className="w-full px-2 bg-accent rounded-xl shadow-sm shadow-primary flex flex-col p-4 my-4 hover:scale-105 duration-300">
           <AiOutlineEdit size={50} className="w-20 mx-auto mt-[-3rem]" />
           <h2 className="text-2xl font-bold text-center py-8">
             Creative Design

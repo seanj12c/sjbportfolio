@@ -18,11 +18,11 @@ const Portfolio = () => {
         </h1>
       </div>
 
-      <div className="md:max-w-[1240px] max-w-[450px] mx-auto grid md:grid-cols-3 gap-5">
-        <div className="card w-96 bg-base-100 shadow-xl">
+      <div className=" mx-auto grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+        <div className="card w-80 md:w-96 bg-base-100 mx-auto shadow-xl">
           <figure>
             <img
-              className="pointer-events-none select-none object-cover rounded-2xl h-[220px] w-[500px]"
+              className="pointer-events-none select-none object-cover h-[220px] w-[500px]"
               src={Edoagenda}
               alt="edoagenda"
             />
@@ -30,7 +30,7 @@ const Portfolio = () => {
           <div className="card-body">
             <h2 className="card-title">
               Edo Agenda Clone
-              <div className="badge badge-accent">NEW</div>
+              <div className="badge badge-accent">React JS</div>
             </h2>
             <p>
               The smart agenda for freelancers, creatives and people who do
@@ -51,10 +51,10 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-80 md:w-96 bg-base-100 mx-auto shadow-xl">
           <figure>
             <img
-              className="pointer-events-none select-none object-cover rounded-2xl h-[220px] w-[500px]"
+              className="pointer-events-none select-none object-cover h-[220px] w-[500px]"
               src={Mybank}
               alt="mybank"
             />
@@ -62,7 +62,7 @@ const Portfolio = () => {
           <div className="card-body">
             <h2 className="card-title">
               My Bank
-              <div className="badge badge-accent">NEW</div>
+              <div className="badge badge-accent">React JS</div>
             </h2>
             <p>
               The smart agenda for freelancers, creatives and people who do
@@ -83,10 +83,10 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-80 md:w-96 bg-base-100 mx-auto shadow-xl">
           <figure>
             <img
-              className="pointer-events-none select-none object-cover rounded-2xl h-[220px] w-[500px]"
+              className="pointer-events-none select-none object-cover h-[220px] w-[500px]"
               src={Kitscratch}
               alt="KitScratch"
             />
@@ -94,7 +94,7 @@ const Portfolio = () => {
           <div className="card-body">
             <h2 className="card-title">
               Kit Scratch
-              <div className="badge badge-accent">NEW</div>
+              <div className="badge badge-accent">React JS</div>
             </h2>
             <p>
               The smart agenda for freelancers, creatives and people who do
@@ -115,10 +115,10 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-80 md:w-96 bg-base-100 mx-auto shadow-xl">
           <figure>
             <img
-              className="pointer-events-none select-none object-cover rounded-2xl h-[220px] w-[500px]"
+              className="pointer-events-none select-none object-cover h-[220px] w-[500px]"
               src={Mobilelegends}
               alt="KitScratch"
             />
@@ -126,7 +126,7 @@ const Portfolio = () => {
           <div className="card-body">
             <h2 className="card-title">
               Mobile Legends Unofficial
-              <div className="badge badge-accent">NEW</div>
+              <div className="badge badge-accent">React JS</div>
             </h2>
             <p>
               The smart agenda for freelancers, creatives and people who do
@@ -147,10 +147,10 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-80 md:w-96 bg-base-100 mx-auto shadow-xl">
           <figure>
             <img
-              className="pointer-events-none select-none object-cover rounded-2xl h-[220px] w-[500px]"
+              className="pointer-events-none select-none object-cover h-[220px] w-[500px]"
               src={Devstacks}
               alt="Devstacks"
             />
@@ -158,7 +158,7 @@ const Portfolio = () => {
           <div className="card-body">
             <h2 className="card-title">
               Dev Stacks
-              <div className="badge badge-accent">NEW</div>
+              <div className="badge badge-accent">React JS</div>
             </h2>
             <p>
               The smart agenda for freelancers, creatives and people who do
@@ -179,10 +179,10 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-80 md:w-96 bg-base-100 mx-auto shadow-xl">
           <figure>
             <img
-              className="pointer-events-none select-none object-cover rounded-2xl h-[220px] w-[500px]"
+              className="pointer-events-none select-none object-cover h-[220px] w-[500px]"
               src={Cnc}
               alt="Caffeine and Chapters"
             />
@@ -190,7 +190,7 @@ const Portfolio = () => {
           <div className="card-body">
             <h2 className="card-title">
               Caffeine and Chapters
-              <div className="badge badge-accent">NEW</div>
+              <div className="badge badge-accent">React JS</div>
             </h2>
             <p>
               The smart agenda for freelancers, creatives and people who do

@@ -45,7 +45,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-center">
         <h1 className="w-full text-3xl font-bold text-primary">
-          S<span className="text-black">JB</span>
+          S<span className="text-neutral">JB</span>
         </h1>
       </div>
       <div className="navbar-end">
@@ -71,7 +71,7 @@ const Navbar = () => {
                 type="radio"
                 name="theme-dropdown"
                 className="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                aria-label="Default"
+                aria-label="System Auto"
                 value="default"
               />
             </li>
@@ -80,7 +80,7 @@ const Navbar = () => {
                 type="radio"
                 name="theme-dropdown"
                 className="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                aria-label="Retro"
+                aria-label="Cream"
                 value="retro"
               />
             </li>
@@ -89,8 +89,8 @@ const Navbar = () => {
                 type="radio"
                 name="theme-dropdown"
                 className="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                aria-label="Cyberpunk"
-                value="cyberpunk"
+                aria-label="Dark Green"
+                value="forest"
               />
             </li>
             <li>
@@ -98,7 +98,7 @@ const Navbar = () => {
                 type="radio"
                 name="theme-dropdown"
                 className="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                aria-label="Valentine"
+                aria-label="Pink"
                 value="valentine"
               />
             </li>
@@ -107,8 +107,8 @@ const Navbar = () => {
                 type="radio"
                 name="theme-dropdown"
                 className="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                aria-label="Aqua"
-                value="aqua"
+                aria-label="Blue"
+                value="cupcake"
               />
             </li>
           </ul>
