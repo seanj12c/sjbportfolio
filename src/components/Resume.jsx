@@ -10,7 +10,9 @@ const Resume = () => {
     <div className="container mx-auto px-4">
       <header className="flex justify-center gap-10">
         <div>
-          <h1 className="text-4xl font-bold">Sean Jimwell Buclatin</h1>
+          <h1 className="md:text-4xl text-2xl font-bold">
+            Sean Jimwell Buclatin
+          </h1>
           <p className="text-lg">Web Developer</p>
           <p className="flex items-center gap-2">
             <CiPhone /> +639 652 37 6005
