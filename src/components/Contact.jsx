@@ -11,7 +11,7 @@ const Contact = () => {
       className="md:w-full h-[90vh] items-center mx-auto py-16 justify-center lg:text-start text-center flex "
     >
       <div className="max-w-3xl">
-        <h1 className="w-full text-3xl lg:text-5xl pb-3 font-bold text-primary text-center">
+        <h1 className="w-full text-3xl lg:text-5xl pb-3 font-bold text-accent text-center">
           Contact <span className="">Me!</span>
         </h1>
         <h1 className="w-full text-lg">
@@ -47,7 +47,7 @@ const Contact = () => {
 
         <div className="flex justify-center lg:justify-start gap-4 my-6">
           <a
-            className="hover:text-primary duration-500"
+            className="hover:text-accent duration-500"
             href="https://www.facebook.com/seanj12c"
             target="_blank"
             rel="noreferrer"
@@ -55,7 +55,7 @@ const Contact = () => {
             <AiFillFacebook size={30} />
           </a>
           <a
-            className="hover:text-primary duration-500"
+            className="hover:text-accent duration-500"
             href="https://www.instagram.com/seanjimwell/"
             target="_blank"
             rel="noreferrer"
@@ -63,7 +63,7 @@ const Contact = () => {
             <AiFillInstagram size={30} />
           </a>
           <a
-            className="hover:text-primary duration-500"
+            className="hover:text-accent duration-500"
             href="https://www.linkedin.com/in/sean-jimwell-buclatin-0a024a263/"
             target="_blank"
             rel="noreferrer"

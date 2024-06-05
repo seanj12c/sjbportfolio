@@ -14,30 +14,27 @@ const Portfolio = () => {
       <div className="text-center">
         <p>Portfolio</p>
         <h1 className="text-4xl">
-          Latest <span className="text-primary">Project</span>
+          Latest <span className="text-accent">Project</span>
         </h1>
       </div>
 
-      <div className=" mx-auto grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-        <div className="card w-80 md:w-96 bg-base-100 mx-auto shadow-xl">
+      <div className="grid justify-center grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div className="card  bg-base-100 mx-auto shadow-xl">
           <figure>
             <img
-              className="pointer-events-none select-none object-cover h-[220px] w-[500px]"
+              className="pointer-events-none select-none object-cover "
               src={Edoagenda}
               alt="edoagenda"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
-              Edo Agenda Clone
-              <div className="badge badge-accent">React JS</div>
-            </h2>
+            <h2 className="card-title">Edo Agenda Clone</h2>
             <p>
               The smart agenda for freelancers, creatives and people who do
               great work. Organize your day and free your creative side.
             </p>
             <div className="card-actions justify-end">
-              <div className="btn btn-primary btn-xs">
+              <div className="btn btn-accent btn-xs">
                 <a
                   id="link"
                   href="https://edoagendabysean.netlify.app"
@@ -51,25 +48,24 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="card w-80 md:w-96 bg-base-100 mx-auto shadow-xl">
+        <div className="card  bg-base-100 mx-auto shadow-xl">
           <figure>
             <img
-              className="pointer-events-none select-none object-cover h-[220px] w-[500px]"
+              className="pointer-events-none select-none object-cover "
               src={Mybank}
               alt="mybank"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
-              My Bank
-              <div className="badge badge-accent">React JS</div>
-            </h2>
+            <h2 className="card-title">My Bank</h2>
+
             <p>
-              The smart agenda for freelancers, creatives and people who do
-              great work. Organize your day and free your creative side.
+              Our banking as a Service platform has everything for you including
+              investment, trading and saving for you to build your own banking
+              experience.
             </p>
             <div className="card-actions justify-end">
-              <div className="btn btn-primary btn-xs">
+              <div className="btn btn-accent btn-xs">
                 <a
                   id="link"
                   href="https://mybankbysean.netlify.app"
@@ -83,25 +79,24 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="card w-80 md:w-96 bg-base-100 mx-auto shadow-xl">
+        <div className="card  bg-base-100 mx-auto shadow-xl">
           <figure>
             <img
-              className="pointer-events-none select-none object-cover h-[220px] w-[500px]"
+              className="pointer-events-none select-none object-cover "
               src={Kitscratch}
               alt="KitScratch"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
-              Kit Scratch
-              <div className="badge badge-accent">React JS</div>
-            </h2>
+            <h2 className="card-title">Kit Scratch</h2>
             <p>
-              The smart agenda for freelancers, creatives and people who do
-              great work. Organize your day and free your creative side.
+              A group of talented students who are passionate about developing
+              mobile apps, web apps, and UI/UX designs. We are a team of
+              creative thinkers who are dedicated to delivering innovative
+              solutions to our clients.
             </p>
             <div className="card-actions justify-end">
-              <div className="btn btn-primary btn-xs">
+              <div className="btn btn-accent btn-xs">
                 <a
                   id="link"
                   href="https://kitscratch.netlify.app"
@@ -115,25 +110,23 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="card w-80 md:w-96 bg-base-100 mx-auto shadow-xl">
+        <div className="card  bg-base-100 mx-auto shadow-xl">
           <figure>
             <img
-              className="pointer-events-none select-none object-cover h-[220px] w-[500px]"
+              className="pointer-events-none select-none object-cover "
               src={Mobilelegends}
               alt="KitScratch"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
-              Mobile Legends Unofficial
-              <div className="badge badge-accent">React JS</div>
-            </h2>
+            <h2 className="card-title">Mobile Legends Unofficial</h2>
             <p>
-              The smart agenda for freelancers, creatives and people who do
-              great work. Organize your day and free your creative side.
+              Mobile Legends: Bang Bang is an exhilarating, action-packed mobile
+              game that has taken the world by storm. This website is created by
+              me because Mobile Legends don't have landing page.
             </p>
             <div className="card-actions justify-end">
-              <div className="btn btn-primary btn-xs">
+              <div className="btn btn-accent btn-xs">
                 <a
                   id="link"
                   href="https://mobilelegendsunofficial.netlify.app/"
@@ -147,25 +140,23 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="card w-80 md:w-96 bg-base-100 mx-auto shadow-xl">
+        <div className="card  bg-base-100 mx-auto shadow-xl">
           <figure>
             <img
-              className="pointer-events-none select-none object-cover h-[220px] w-[500px]"
+              className="pointer-events-none select-none object-cover "
               src={Devstacks}
               alt="Devstacks"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
-              Dev Stacks
-              <div className="badge badge-accent">React JS</div>
-            </h2>
+            <h2 className="card-title">Dev Stacks</h2>
             <p>
-              The smart agenda for freelancers, creatives and people who do
-              great work. Organize your day and free your creative side.
+              Unleash Your Coding Potential for Free! Dive into our handpicked
+              selection of resources, tutorials, and expert tips. Ignite your
+              coding creativity and build without boundaries!
             </p>
             <div className="card-actions justify-end">
-              <div className="btn btn-primary btn-xs">
+              <div className="btn btn-accent btn-xs">
                 <a
                   id="link"
                   href="https://dev-stacks.vercel.app/"
@@ -179,25 +170,25 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="card w-80 md:w-96 bg-base-100 mx-auto shadow-xl">
+        <div className="card  bg-base-100 mx-auto shadow-xl">
           <figure>
             <img
-              className="pointer-events-none select-none object-cover h-[220px] w-[500px]"
+              className="pointer-events-none select-none object-cover "
               src={Cnc}
               alt="Caffeine and Chapters"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
-              Caffeine and Chapters
-              <div className="badge badge-accent">React JS</div>
-            </h2>
+            <h2 className="card-title">Caffeine and Chapters</h2>
             <p>
-              The smart agenda for freelancers, creatives and people who do
-              great work. Organize your day and free your creative side.
+              Elevate your reading experience with the perfect blend of curated
+              books and exceptional brews. Explore our literary haven, where
+              every sip enhances the magic of each chapter. Immerse yourself in
+              a world where words and caffeine unite for a uniquely enriching
+              escape.
             </p>
             <div className="card-actions justify-end">
-              <div className="btn btn-primary btn-xs">
+              <div className="btn btn-accent btn-xs">
                 <a
                   id="link"
                   href="https://caffeineandchapters.vercel.app/"

@@ -1,0 +1,44 @@
+.cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border: 2px solid transparent; /* Transparent border */
+  border-radius: 50%;
+  pointer-events: none; /* Ensures the cursor doesn't interfere with mouse events */
+  z-index: 9999; /* Ensures the cursor is above other elements */
+  transition: transform 0.1s ease, box-shadow 1s linear; /* Add transition for smooth movement and glow effect */
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0); /* Initial box-shadow, fully transparent */
+  animation: rainbowGlow 5s infinite; /* Rainbow glow animation */
+}
+
+/* Add hover effect */
+.cursor:hover {
+  transform: scale(1.5); /* Scale up the cursor on hover */
+}
+
+/* Rainbow glow animation */
+@keyframes rainbowGlow {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); /* Red glow */
+  }
+  20% {
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.7); /* Yellow glow */
+  }
+  40% {
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Green glow */
+  }
+  60% {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7); /* Cyan glow */
+  }
+  80% {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.7); /* Blue glow */
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.7); /* Magenta glow */
+  }
+}
+
+/* Add custom cursor style */
+.App {
+  cursor: none; /* Hide default cursor */
+}
