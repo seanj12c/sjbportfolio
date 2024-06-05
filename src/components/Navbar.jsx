@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../assets/logo.png";
 const Navbar = () => {
   return (
     <div className="navbar  bg-base-100">
@@ -45,9 +45,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center">
-        <h1 className="w-full text-3xl font-bold text-accent">
-          S<span className="text-neutral">JB</span>
-        </h1>
+        <img className="w-5 object-contain" src={logo} alt="" />
       </div>
       <div className="navbar-end"></div>
     </div>
