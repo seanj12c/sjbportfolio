@@ -42,3 +42,9 @@
 .App {
   cursor: none; /* Hide default cursor */
 }
+
+@media only screen and (max-width: 768px) {
+  .cursor {
+    display: none;
+  }
+}
