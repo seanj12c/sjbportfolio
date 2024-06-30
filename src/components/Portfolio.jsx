@@ -5,6 +5,8 @@ import Kitscratch from "../assets/kitscratch.gif";
 import Cnc from "../assets/cnc.gif";
 import Devstacks from "../assets/devstacks.gif";
 import Mobilelegends from "../assets/mobilelegends.gif";
+import El from "../assets/el.gif";
+import Bog from "../assets/bog.gif";
 const Portfolio = () => {
   return (
     <div
@@ -192,6 +194,67 @@ const Portfolio = () => {
                 <a
                   id="link"
                   href="https://caffeineandchapters.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Visit
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card  bg-base-100 mx-auto shadow-xl">
+          <figure>
+            <img
+              className="pointer-events-none select-none object-cover "
+              src={El}
+              alt="Caffeine and Chapters"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">E-Learning Studio Website</h2>
+            <p>
+              Our E-Learning hub is your bridge towards academic innovation. We
+              offer free access to facilities and resources that empower
+              flexible learning and multimedia project production. Whether
+              you're a seasoned student or just starting your journey, we invite
+              you to thrive with us.
+            </p>
+            <div className="card-actions justify-end">
+              <div className="btn btn-accent btn-xs">
+                <a
+                  id="link"
+                  href="https://elstudio.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Visit
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card  bg-base-100 mx-auto shadow-xl">
+          <figure>
+            <img
+              className="pointer-events-none select-none object-cover "
+              src={Bog}
+              alt="Caffeine and Chapters"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Bacoor Ocean Gem Market</h2>
+            <p>
+              At Bacoor Ocean Gem Market , we're passionate about bringing the
+              ocean's finest treasures to your table. Our journey began with a
+              deep love for the sea and a commitment to making the flavors of
+              the ocean accessible to all seafood enthusiasts.
+            </p>
+            <div className="card-actions justify-end">
+              <div className="btn btn-accent btn-xs">
+                <a
+                  id="link"
+                  href="https://bacoorogmarket.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
